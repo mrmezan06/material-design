@@ -18,7 +18,8 @@ const ProjectCard = ({ url, title, description, live }) => {
         </Typography>
       </CardContent>
       <CardActions className='center'>
-        <a className='text-white font-bold bg-green-600 border-l-emerald-400 px-5 py-2 hover:bg-sky-600' href={live} target='_blank' >Live</a>
+        <a className='text-white font-bold bg-green-600 border-l-emerald-400 px-5 py-2 hover:bg-sky-600' href={live} target='_blank' rel="noreferrer noopener">Live</a>
+        
       </CardActions>
     </Card>
   )
