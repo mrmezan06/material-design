@@ -1,12 +1,11 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import DashboardTable from './DashboardTable'
 
 const navigation = [
-  { name: 'Dashboard', href: '/', current: false },
-  { name: 'Team', href: '/team', current: false },
+  { name: 'Team', href: '/', current: false },
   { name: 'Projects', href: '/projects', current: false },
+  { name: 'Dashboard', href: '/dashboard', current: false },
   { name: 'About Us', href: '/aboutus', current: false },
 ]
 
