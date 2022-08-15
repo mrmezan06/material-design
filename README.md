@@ -41,6 +41,35 @@ npm install @mui/icons-material
 ```jsx
 npm install react-router-dom
 ```
+- [x] Tailwind CSS
+```jsx
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+- [x] Tailwind CSS Config
+```jsx
+/** @type {import('tailwindcss').Config} */ 
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+- [x] index.css
+```jsx
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+- [x] Navbar.jsx
+```jsx
+npm install @heroicons/react
+npm install @headlessui/react
+```
 
 ## Usage
 
