@@ -8,8 +8,8 @@ import Typography from "@mui/material/Typography";
 
 export default function DevCard({ url, title, description }) {
   return (
-    <Card className="mx-5" sx={{ maxWidth: 345 }}>
-      <CardMedia component="img" height="140" image={url} alt={title} />
+    <Card className="mx-5 " sx={{ maxWidth: 345 }}>
+      <CardMedia className="h-[140] sm:h-[100]" component="img" height="140" image={url} alt={title} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {title}

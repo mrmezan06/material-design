@@ -3,9 +3,10 @@ import DevCard from "./DevCard";
 
 const TeamContent = () => {
   return (
-    <div className="flex w-full flex-col items-center justify-center">
-      <div className="flex flex-row">
+    <div className="flex w-7xl flex-col items-center justify-center">
+      <div className="flex 2xl:flex-row lg:flex-row xl:flex-row md:flex-col sm:flex-col">
         <DevCard
+          className="flex w-[50%]"
           description={"Sr. Full Stack Developer"}
           title={"Wade Dave"}
           url={
