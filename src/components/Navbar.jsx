@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import {Link} from 'react-router-dom';
 
 const navigation = [
   { name: 'Team', href: '/', current: false },
@@ -47,17 +48,21 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      // <a
+                      //   key={item.name}
+                      //   href={item.href}
+                        // className={classNames(
+                        //   item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        //   'px-3 py-2 rounded-md text-sm font-medium'
+                        // )}
+                      //   aria-current={item.current ? 'page' : undefined}
+                      // >
+                      //   {item.name}
+                      // </a>
+                      <Link to={item.href}   className={classNames(
+                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'px-3 py-2 rounded-md text-sm font-medium'
+                      )}>{item.name}</Link>
                     ))}
                   </div>
                 </div>
