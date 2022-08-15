@@ -81,3 +81,7 @@ https://tailwindcss.com/docs/background-color
 
 ## Examples
 
+<img src="preview.png">
+&nbsp;
+<img src="preview2.png">
+
