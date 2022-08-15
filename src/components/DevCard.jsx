@@ -7,8 +7,8 @@ import Typography from "@mui/material/Typography";
 
 export default function DevCard({ url, title, description }) {
   return (
-    <Card className="mx-5 mt-10 " sx={{ maxWidth: 345 }}>
-      <CardMedia className="h-[140] sm:h-[100]" component="img" height="140" image={url} alt={title} />
+    <Card className="mx-5 mt-10 hover:shadow-2xl transition-all " sx={{ maxWidth: 345 }}>
+      <CardMedia  className="blur-sm hover:blur-none transition-all duration-500" component="img" height="140" image={url} alt={title} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {title}

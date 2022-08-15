@@ -71,6 +71,10 @@ npm install @heroicons/react
 npm install @headlessui/react
 ```
 
+### Tailwind CSS Documentation
+```jsx
+https://tailwindcss.com/docs/background-color
+```
 ## Usage
 
 `npm start`
