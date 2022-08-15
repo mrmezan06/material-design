@@ -10,3 +10,18 @@
   align-items: center;
   justify-content: center;
 }
+.intro {
+  display: inline-block;
+}
+
+.intro-text {
+  text-align: left;
+  font-size: 1.3rem;
+  color: rgb(58, 66, 66)
+}
+
+.description {
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(63, 82, 82)
+}

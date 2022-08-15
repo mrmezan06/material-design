@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer';
 import Navbar from "../components/Navbar";
 import ProjectContent from '../components/ProjectContent';
 
@@ -20,6 +21,7 @@ const Projects = () => {
           {/* /End replace */}
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

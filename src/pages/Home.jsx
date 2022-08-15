@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import DashboardTable from "../components/DashboardTable";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           {/* /End replace */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

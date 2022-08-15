@@ -1,5 +1,6 @@
 import React from "react";
 import AboutContent from "../components/AboutContent";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const AboutUs = () => {
@@ -20,6 +21,7 @@ const AboutUs = () => {
           {/* /End replace */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

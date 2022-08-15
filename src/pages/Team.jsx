@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import TeamContent from "../components/TeamContent";
 
@@ -20,6 +21,7 @@ const Team = () => {
           {/* /End replace */}
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
